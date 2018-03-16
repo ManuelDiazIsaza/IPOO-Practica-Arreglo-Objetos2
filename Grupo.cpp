@@ -110,3 +110,35 @@ void Grupo::listarEstuditantes()
         cout << grupo[i].getPeso()  << endl;
     }
 }
+
+void  Grupo::personasMayorPeso()
+{
+    int ultimo = this -> getUltimo();
+    int longitud = 0;
+    string nombre = "";
+    cout << "Estudiante" << endl;
+
+    for(int i = 0 ; i < ultimo ; i++ ){
+
+        if(grupo[i].getPeso() > this -> promedioPeso() ) {
+            nombre = grupo[i].getNombre();
+            cout << nombre << endl;
+        }
+    }
+}
+
+void  Grupo::personasMayorEdad()
+{
+    int ultimo = this -> getUltimo();
+    int longitud = 0;
+    string nombre = "";
+    cout << "Estudiante" << endl;
+
+    for(int i = 0 ; i < ultimo ; i++ ){
+
+        if(grupo[i].getEdad() > this -> promedioEdad() ) {
+            nombre = grupo[i].getNombre();
+            cout << nombre << endl;
+        }
+    }
+}

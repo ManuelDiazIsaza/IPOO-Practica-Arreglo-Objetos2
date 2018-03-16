@@ -38,6 +38,8 @@ class Grupo
 		bool codigoRepetido(int codigo);
         double promedioPeso();
         double promedioEdad();
+        void personasMayorPeso();
+        void personasMayorEdad();
 
 };
 
