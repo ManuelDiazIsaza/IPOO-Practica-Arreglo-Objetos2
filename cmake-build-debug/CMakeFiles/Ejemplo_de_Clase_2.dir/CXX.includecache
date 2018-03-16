@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Estudiante.cpp
+Estudiante.h
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Estudiante.h
+
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Estudiante.h
+string
+-
+
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Grupo.cpp
+Grupo.h
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Grupo.h
+iomanip
+-
+iostream
+-
+
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Grupo.h
+string
+-
+Estudiante.h
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Estudiante.h
+
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/main.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+Grupo.h
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/Grupo.h
+

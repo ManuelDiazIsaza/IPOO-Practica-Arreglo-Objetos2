@@ -1,0 +1,3 @@
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/cmake-build-debug/CMakeFiles/Ejemplo_de_Clase_2.dir
+C:/Users/Juanescacha/Documents/GitHub/Practica-Arreglo-Objetos/cmake-build-debug/CMakeFiles/edit_cache.dir
