@@ -38,5 +38,7 @@ int main()
    cout << ipoo.promedioEdad() << endl;
    ipoo.personasMayorPeso();
    ipoo.personasMayorEdad();
+     ipoo.buscarEstudiante(1741628);
+   ipoo.listadoCodigo();
    
 }
