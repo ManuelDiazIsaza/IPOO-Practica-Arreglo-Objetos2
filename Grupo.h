@@ -40,6 +40,10 @@ class Grupo
         double promedioEdad();
         void personasMayorPeso();
         void personasMayorEdad();
+	        void buscarEstudiante(int codigoEst);
+        int codigosEstu[4];
+        string estudiantes[4];
+        void listadoCodigo();
 
 };
 
