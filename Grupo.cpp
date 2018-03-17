@@ -142,3 +142,52 @@ void  Grupo::personasMayorEdad()
         }
     }
 }
+
+void Grupo::buscarEstudiante(int codigoEst){
+    int ultimo = this -> getUltimo();
+    int longitud = 0;
+    string nombre = "";
+
+    
+    for(int i=0; i<ultimo; i++){
+        
+        if(grupo[i].getCodigo() == codigoEst){
+            nombre = grupo[i].getNombre();
+            cout<< "el codigo corresponde al estudiante: ";
+            cout<< nombre<<endl;
+        }
+    }
+}
+
+
+void Grupo::listadoCodigo(){
+    
+  int tamano = this -> getUltimo();
+  int i,j,aux;
+  
+  for(i=0;i<tamano;i++){
+      codigosEstu[i]=grupo[i].getCodigo();
+      estudiantes[i]=grupo[i].getNombre();
+  }
+
+    for(i=0;i<tamano;i++)
+    {
+        for(j=i+1;j<tamano;j++)
+        {
+            if(codigosEstu[i]<codigosEstu[j])
+            {
+                aux=codigosEstu[i];
+                codigosEstu[i]=codigosEstu[j];
+                codigosEstu[j]=aux;
+            }
+        }
+    }
+    
+    cout<<" \nlos codigos ordenados de mayor a menor son: " ;
+    for(i=0;i<tamano;i++)
+    {
+        
+        cout<< codigosEstu[i]<<",";
+    }
+
+}
